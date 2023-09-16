@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-s4vr))oj6-l(eo#zrtyvt6qwsy*61-_jws68txl)b_omnep_gh
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['8000-ila-bura-django-project-ranwjga936.us2.codeanyapp.com']
+ALLOWED_HOSTS = ['ila-django-project.herokuapp.com']
 
 
 # Application definition
