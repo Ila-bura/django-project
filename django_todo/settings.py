@@ -28,10 +28,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-s4vr))oj6-l(eo#zrtyvt6qwsy*61-_jws68txl)b_omnep_gh'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = [
-    'ila-django-project-ee7a9122215c.herokuapp.com']
+ALLOWED_HOSTS = [os.environ.get('ila-django-project-ee7a9122215c.herokuapp.com')
+                 ]
 
 
 # Application definition
