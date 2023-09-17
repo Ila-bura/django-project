@@ -94,7 +94,7 @@ if development:
     }
 else:
     DATABASES = {
-        'default': dj_database_url.parse('os.environ.get("DATABASE_URL")')
+        'default': dj_database_url.parse('postgres://aqeehoqv:w8tMqqga4u0KFS6tdek4E_7n1H0ej6wh@tai.db.elephantsql.com/aqeehoqv')
     }
 
 
