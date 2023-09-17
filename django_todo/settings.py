@@ -31,7 +31,7 @@ SECRET_KEY = 'django-insecure-s4vr))oj6-l(eo#zrtyvt6qwsy*61-_jws68txl)b_omnep_gh
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    'postgres://aqeehoqv:w8tMqqga4u0KFS6tdek4E_7n1H0ej6wh@tai.db.elephantsql.com/aqeehoqv']
+    'ila-django-project-ee7a9122215c.herokuapp.com']
 
 
 # Application definition
