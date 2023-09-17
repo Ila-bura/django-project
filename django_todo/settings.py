@@ -30,7 +30,8 @@ SECRET_KEY = 'django-insecure-s4vr))oj6-l(eo#zrtyvt6qwsy*61-_jws68txl)b_omnep_gh
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['ila-django-project.herokuapp.com']
+ALLOWED_HOSTS = [
+    'postgres://aqeehoqv:w8tMqqga4u0KFS6tdek4E_7n1H0ej6wh@tai.db.elephantsql.com/aqeehoqv']
 
 
 # Application definition
