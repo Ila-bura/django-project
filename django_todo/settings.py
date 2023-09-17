@@ -79,7 +79,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'django_todo.wsgi'
+WSGI_APPLICATION = 'django_todo.wsgi.application'
 
 
 # Database
